@@ -41,14 +41,14 @@ end)
 
 QBCore.Functions.CreateCallback('dc-mission:server:CheckMission', function(source, cb, type)
     local mission = nil
-    if type = 'dailymission' then
+    if type == 'dailymission' then
         local result = MySQL.Sync.fetchScalar("SELECT * FROM missions WHERE citizenid = ?", {cid})
         if result then
             mission = tonumber(result.daily_mission)
         else
             mission = nil
         end
-    elseif type = 'hourlymission' then
+    elseif type == 'hourlymission' then
         local result = MySQL.Sync.fetchScalar("SELECT * FROM missions WHERE citizenid = ?", {cid})
         if result then
             mission = tonumber(result.hour_mission)
