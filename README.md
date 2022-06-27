@@ -7,4 +7,5 @@ Create by DoraemonHN
 + Hidden mission: Hidden point mission, can only be done once (Like a plot mission like some martial arts games)
 - Easy task creation
 - Optimal
-Showcase Video: https://youtu.be/sUKWZjp8H4w
+I forked it by LCT-Missions and Edited it, orignal versions: https://github.com/lct2105/lct-mission
+Orginal Showcase Video: https://youtu.be/sUKWZjp8H4w
